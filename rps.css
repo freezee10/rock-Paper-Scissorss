@@ -1,0 +1,131 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Offside;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gName {
+    margin-top: 110px;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.board {
+    margin-top: 30px;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+
+.playerBoard, .computerBoard {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    
+
+  
+    align-items: center;
+    border-radius: 10px;
+
+    width: 335px;
+    height: 265px;
+    background-color: #80CFA9
+}
+
+
+
+.player {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.score-container {
+    display: flex;
+    align-items: center;
+  gap: 15px;
+}
+
+img {
+    width: 40px;
+}
+
+.options-container {
+    display: flex;
+    gap: 20px;
+}
+
+
+.name {
+    color: black;
+    margin-top: 10px;
+}
+
+
+.optionn {
+    border-radius: 3px;
+    background-color: white;
+    width: 85px;
+    height: 95px;
+    cursor: pointer;
+    transition: 0.1s;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  transition: 0.2s;
+   align-items: center;
+}
+
+.optionn:hover {
+    opacity: 0.8
+}
+
+.optionn:active {
+    opacity: 0.65
+}
+.clicked {
+    background-color: #C9D7F8
+}
+
+.gg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gg-message {
+    margin-top: 30px;
+}
+
+
+
+.again {
+background-color: white;
+color: black;
+padding: 10px 25px;
+border: none;
+cursor: pointer;
+border-radius: 2.5px;
+}
+
+.again:hover {
+    opacity: 0.8;
+}
+
+.again:active {
+    opacity: 0.65;
+}
+.invis {
+    display: none;
+ }

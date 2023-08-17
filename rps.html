@@ -3,10 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock, Paper, Scissors</title>
+    <link rel = "stylesheet" href = "rps.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Offside&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <audio class = "sound" src = "mixkit-cool-interface-click-tone-2568.wav"></audio>
+    <div class = "game">
+        <div class = "name">
+            <h1 style = "color: white;" class = "gName"> Rock, Paper, Scissors</h1>
+        </div>
+        
+        <div class = "board">
+            <div class = "playerBoard slot">
+                <div class = "player">
+                    PLAYER
+                </div>
+
+                <div class = "scorePlayer">
+                    <div class = "score-container">
+                        <div class = "icon">
+                            <img src = "2829758.png">
+                        </div>
+                        <div class = "playerScore">
+                            Score: 0
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "options">
+                    <div class = "options-container">
+                        <div class = "rrock">
+                            <div class = "rock-coo optionn">
+                                <div class = "name">
+                                    Rock
+                                </div>
+
+                                <div class = "rock-icon">
+                                    <img style = "width: 63px;" src = "rock.png">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "ppaper">
+                            <div class = "paper-coo optionn">
+                                <div style = "margin-top: 10px;"class = "name">
+                                    Paper
+                                </div>
+
+                                <div class = "rock-icon">
+                                <img style = "width: 70px; margin-top: -5px;"src = "paper.png">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "sscissors">
+                            <div class = "scissors-coo optionn">
+                                <div class = "name">
+                                    Scissors
+                                </div>
+
+                                <div class = "rock-icon">
+                                    <img style = "width: 60px;" src = "scissors.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+               
+                </div>
+            </div>
+
+            <div class = "computerBoard slot">
+                <div class = "player">
+                    COMPUTER
+                </div>
+
+                <div class = "scoreComputer">
+                    <div class = "score-container">
+                        <div class = "icon">
+                            <img src = "4712027.png">
+                        </div>
+                        <div class = "computerScore">
+                            Score: 0
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "options">
+                    <div class = "options-container">
+                        <div class = "rrock">
+                            <div class = "Rock-comp optionn">
+                                <div class = "name">
+                                    Rock
+                                </div>
+
+                                <div class = "rock-icon">
+                                  <img style = "width: 63px;" src = "rock.png">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "ppaper">
+                            <div class = "Paper-comp optionn">
+                                <div class = "name">
+                                    Paper
+                                </div>
+
+                                <div class = "rock-icon">
+                                    <img style = "width: 70px; margin-top: -5px;"src = "paper.png">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "sscissors">
+                            <div class = "Scissors-comp optionn">
+                                <div class = "name">
+                                    Scissors
+                                </div>
+
+                                <div class = "rock-icon">
+                                    <img style = "width: 60px;" src = "scissors.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+               
+                </div>
+            </div>
+        </div>
+    </div>
+   <div class = "gg-container">
+        <div class = "message">
+            <h2 class = "ggMessage"> </h2>
+
+        </div>
+
+        <div class = "button">
+            <button class = "again invis"> Again </button>
+        </div>
+
+   </div>
 
     <script src = "rps.js"></script>
 </body>
